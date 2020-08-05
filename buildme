@@ -1,0 +1,5 @@
+#
+# pkg needed -> rdma-core-devel
+#
+
+gcc rping.c -w -o rping -lpthread -lrdmacm -libverbs
